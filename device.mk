@@ -158,6 +158,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap \
+    OnePlusCameraService \
     libcamera_shim
 
 # Display
