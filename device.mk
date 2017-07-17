@@ -336,3 +336,5 @@ $(call inherit-product, device/oppo/common/common.mk)
 PRODUCT_COPY_FILES += \
          device/oneplus/oneplus3/AdAway.apk:system/priv-app/AdAway/AdAway.apk
 
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
