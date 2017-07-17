@@ -331,3 +331,8 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
+
+# AdAway
+PRODUCT_COPY_FILES += \
+         device/oneplus/oneplus3/AdAway.apk:system/priv-app/AdAway/AdAway.apk
+
