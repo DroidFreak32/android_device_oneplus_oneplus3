@@ -437,4 +437,8 @@
 
     <!-- If this is true, device supports Sustained Performance Mode. -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
+    <!-- Show dash charging -->
+    <bool name="config_hasDashCharger">true</bool>
+
 </resources>

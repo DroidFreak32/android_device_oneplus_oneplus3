@@ -162,6 +162,9 @@ PRODUCT_PACKAGES += \
     Snap \
     libcamera_shim
 
+# Charging
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8996 \
