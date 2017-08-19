@@ -34,3 +34,8 @@ TARGET_VENDOR := oneplus
 
 # Unofficial build ID
 TARGET_UNOFFICIAL_BUILD_ID := Sultan
+
+BUILD_TRUSHISHU := true
+WITH_SHISHULAUNCHER := true
+#TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES := true
+include vendor/shishu/common.mk
