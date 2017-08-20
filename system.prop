@@ -37,8 +37,6 @@ qcom.bluetooth.soc=rome
 camera.disable_zsl_mode=1
 media.camera.ts.monotonic=false
 persist.camera.hal.debug=0
-camera.hal1.packagelist=com.oneplus.camera
-persist.camera.hal3.enabled=0
 
 # CNE (needed for IMS)
 persist.cne.feature=1
