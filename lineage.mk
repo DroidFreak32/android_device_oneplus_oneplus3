@@ -34,3 +34,7 @@ TARGET_VENDOR := oneplus
 
 # Unofficial build ID
 TARGET_UNOFFICIAL_BUILD_ID := Sultan
+
+BUILD_TRUSHISHU := true
+WITH_SHISHU_LAUNCHER := true
+include vendor/shishu/common.mk
