@@ -355,8 +355,3 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
-
-# HEVC Gcam support
-PRODUCT_COPY_FILES += \
-    device/oneplus/oneplus3/libs/libmmcamera_imx377.so:system/vendor/lib/libmmcamera_imx377.so \
-    device/oneplus/oneplus3/libs/liboemcamera.so:system/vendor/lib/liboemcamera.so
