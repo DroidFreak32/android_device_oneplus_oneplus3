@@ -37,4 +37,5 @@ TARGET_UNOFFICIAL_BUILD_ID := Sultan
 
 WITH_GCAM := true
 WITH_SHISHU_LAUNCHER := true
+WITH_ADAWAY := true
 include vendor/shishu/common.mk
