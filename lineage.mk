@@ -35,10 +35,9 @@ TARGET_VENDOR := oneplus
 # Unofficial build ID
 TARGET_UNOFFICIAL_BUILD_ID := Sultan
 
-#WITH_GCAM := true
 WITH_SHISHU_LAUNCHER := true
 WITH_SHISHU_BROWSER := true
 WITH_ADAWAY := true
 WITH_SHISHU_FM := true
-WITH_DEXPREOPT := true
+
 include vendor/shishu/common.mk
