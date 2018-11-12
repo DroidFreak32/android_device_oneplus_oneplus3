@@ -33,11 +33,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 TARGET_VENDOR := oneplus
 
 # Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := Sultan
+TARGET_UNOFFICIAL_BUILD_ID := DroidFreak32
 
-WITH_SHISHU_LAUNCHER := true
-WITH_SHISHU_BROWSER := true
-WITH_ADAWAY := true
+WITH_CUSTOM_LAUNCHER := NovaLauncher
+WITH_SHISHU_BROWSER := ViaBrowser
+WITH_ADAWAY := false
 WITH_SHISHU_FM := true
 
 include vendor/shishu/common.mk
