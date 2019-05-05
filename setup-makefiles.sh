@@ -64,5 +64,15 @@ endif
 
 EOF
 
+write_makefiles "$MY_DIR"/proprietary-files-qc-perf.txt
+
+echo "endif" >> "$PRODUCTMK"
+
+cat << EOF >> "$ANDROIDMK"
+
+endif
+
+EOF
+
 # Finish
 write_footers

@@ -272,6 +272,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8996
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.xml:system/etc/powerhint.xml
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
@@ -307,6 +310,20 @@ PRODUCT_PACKAGES += \
     OpenWeatherMapWeatherProvider \
     YahooWeatherProvider \
     WundergroundWeatherProvider
+
+# Thermal
+PRODUCT_PACKAGES += \
+    thermal.msm8996
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
+
+# VR
+PRODUCT_PACKAGES += \
+    vr.msm8996
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.vr.high_performance.xml:system/etc/permissions/android.hardware.vr.high_performance.xml
 
 # Wifi
 PRODUCT_PACKAGES += \
