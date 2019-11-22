@@ -24,10 +24,10 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Oneplus OxygenOS security patch level
-PLATFORM_SECURITY_PATCH := 2019-08-01
+PLATFORM_SECURITY_PATCH := 2019-10-01
 
 # aosp/los codebase security patch level
-VENDOR_SECURITY_PATCH := 2019-09-05
+VENDOR_SECURITY_PATCH := 2019-12-05
 
 PRODUCT_NAME := lineage_oneplus3
 PRODUCT_DEVICE := oneplus3
