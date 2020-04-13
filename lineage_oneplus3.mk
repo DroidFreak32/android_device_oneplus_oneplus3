@@ -27,7 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PLATFORM_SECURITY_PATCH := 2019-10-01
 
 # aosp/los codebase security patch level
-VENDOR_SECURITY_PATCH := 2019-12-05
+VENDOR_SECURITY_PATCH := 2020-03-05
 
 PRODUCT_NAME := lineage_oneplus3
 PRODUCT_DEVICE := oneplus3
