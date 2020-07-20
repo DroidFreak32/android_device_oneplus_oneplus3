@@ -52,10 +52,7 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_RAMDISK_OFFSET     := 0x02200000
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_CONFIG := oneplus3_defconfig
-#TARGET_PREBUILT_KERNEL := device/oneplus/oneplus3/Image.gz-dtb
-TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
+TARGET_PREBUILT_KERNEL := device/oneplus/oneplus3/Image.gz-dtb
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_oneplus3
