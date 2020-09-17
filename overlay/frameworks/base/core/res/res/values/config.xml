@@ -411,5 +411,4 @@
 
     <!-- Minimum color temperature, in Kelvin, supported by Night display. -->
     <integer name="config_nightDisplayColorTemperatureMin">1200</integer>
-    <string name="config_batterySaverScheduleProvider">com.google.android.apps.turbo</string>
 </resources>
