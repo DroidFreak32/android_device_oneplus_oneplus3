@@ -16,3 +16,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_oneplus3.mk
+COMMON_LUNCH_CHOICES := \
+    omni_oneplus3-user \
+    omni_oneplus3-userdebug \
+    omni_oneplus3-eng
