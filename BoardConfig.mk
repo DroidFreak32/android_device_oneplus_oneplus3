@@ -53,8 +53,8 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_RAMDISK_OFFSET     := 0x02200000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_CONFIG := lineageos_oneplus3_defconfig
-#TARGET_PREBUILT_KERNEL := device/oneplus/oneplus3/Image.gz-dtb
+#TARGET_KERNEL_CONFIG := lineageos_oneplus3_defconfig
+TARGET_PREBUILT_KERNEL := device/oneplus/oneplus3/Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
 
 # Init
