@@ -561,3 +561,7 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
+
+# Include gapps
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/gapps/config.mk)
